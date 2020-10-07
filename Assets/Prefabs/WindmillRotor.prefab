@@ -194,6 +194,7 @@ GameObject:
   - component: {fileID: 6740383626414883840}
   - component: {fileID: 2364848906855956022}
   - component: {fileID: 8353377853967254223}
+  - component: {fileID: 4358065922479078471}
   m_Layer: 0
   m_Name: WindmillRotor
   m_TagString: Untagged
@@ -210,7 +211,7 @@ Transform:
   m_GameObject: {fileID: 7769271116820346387}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 49.4246, y: 0.007151127, z: 52.761566}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 6282532108491536267}
   m_Father: {fileID: 0}
@@ -265,3 +266,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4358065922479078471
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7769271116820346387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300006, guid: 526b8341fc722fc45852a2c197c1118d, type: 3}
