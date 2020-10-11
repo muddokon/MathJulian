@@ -63,7 +63,7 @@ public class GunFire : MonoBehaviour {
 		/* DESDE AQUI PERDER *//* DESDE AQUI PERDER */
 		if (_gameMananger.getTiempo () <= 0) {
 			_gameMananger.setGanar (false);
-			SceneManager.LoadScene ("final");
+			//SceneManager.LoadScene ("final");
 		}
 		/* HASTA AQUI PERDER */
 

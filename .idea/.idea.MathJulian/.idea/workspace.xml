@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f6920dbd-c471-4405-8ea8-edcb2568ac6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Runemark Studio/Freebies/Polygon Desert Pack/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runemark Studio/Freebies/Polygon Desert Pack/New Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sebusca.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sebusca.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseSensitiveTest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunFire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GunFire.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +21,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunFire.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -28,9 +31,9 @@
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Utility/ForcedReset.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KillZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GunFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GunFire.cs" />
       </list>
     </option>
   </component>
@@ -83,6 +86,7 @@
       <updated>1601424101569</updated>
       <workItem from="1601424154381" duration="654000" />
       <workItem from="1601767397128" duration="2789000" />
+      <workItem from="1602370384722" duration="2126000" />
     </task>
     <servers />
   </component>
