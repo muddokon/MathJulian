@@ -120,12 +120,16 @@
             <e p="Skybox-Procedural.shader" t="Include" />
           </e>
         </e>
+        <e p="SceneLoader" t="Include">
+          <e p="LevelLoader.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="dianaTarget.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="GunFire.cs" t="Include" />
           <e p="KillZone.cs" t="Include" />
           <e p="Prueba.cs" t="Include" />
+          <e p="UIManager.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="2D" t="Include">
