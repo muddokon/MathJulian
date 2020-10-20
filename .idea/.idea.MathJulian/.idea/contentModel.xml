@@ -128,6 +128,7 @@
           <e p="GameManager.cs" t="Include" />
           <e p="GunFire.cs" t="Include" />
           <e p="KillZone.cs" t="Include" />
+          <e p="LoginManager.cs" t="Include" />
           <e p="Prueba.cs" t="Include" />
           <e p="UIManager.cs" t="Include" />
         </e>
