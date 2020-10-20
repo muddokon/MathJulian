@@ -1977,6 +1977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempo: 0
+  tabla: 0
 --- !u!4 &336092478
 Transform:
   m_ObjectHideFlags: 0
@@ -3259,6 +3260,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f9711582842315479d7d31e6739eae2, type: 3}
+--- !u!198 &590271871 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 19800000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 3}
+  m_PrefabInstance: {fileID: 1300579120}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &602895462 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 846edcecb228de449a39371d15993dc4, type: 3}
@@ -6742,8 +6748,8 @@ MonoBehaviour:
   damage: 10
   range: 100
   FPSCamera: {fileID: 1623658190}
-  shootEffect: {fileID: 0}
-  hitEffect: {fileID: 0}
+  shootEffect: {fileID: 590271871}
+  hitEffect: {fileID: 1524595417}
   fuerza: 50
   sonido: {fileID: 0}
 --- !u!1001 &1328760386
@@ -7298,6 +7304,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: dd36e323af2547342bb89a4c2051ebea, type: 3}
+--- !u!1 &1524595417 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 124344, guid: d970922f1aa657c448a0761a9ee6420f, type: 3}
+  m_PrefabInstance: {fileID: 476798895}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1538807234 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3618549014160730506, guid: 9d28c30ded7964cac8af96e74100a47e, type: 3}
@@ -9779,7 +9790,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 002bcd50be6f6be43bbb940a9ad0a986, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6edfda2b1192f4823b1c26c1a4a4afe8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
