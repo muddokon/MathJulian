@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6920dbd-c471-4405-8ea8-edcb2568ac6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +29,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/KillZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GunFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoginManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" />
       </list>
     </option>
   </component>
@@ -84,7 +86,7 @@
       <workItem from="1601767397128" duration="2789000" />
       <workItem from="1602370384722" duration="2126000" />
       <workItem from="1602631059858" duration="141000" />
-      <workItem from="1603233934955" duration="5256000" />
+      <workItem from="1603233934955" duration="5736000" />
     </task>
     <servers />
   </component>

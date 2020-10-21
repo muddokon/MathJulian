@@ -45,28 +45,14 @@ public class dianaTarget : MonoBehaviour {
 
 		if (correcto)
 		{
-			//_gameManager
+			_gameManager.SumarScore();
+			//mostrar feedback bien
 		}
-		/*AQUI PONEMOS LA FUNCIÓN DE PUNTO*/
-		restarPunto ();
-		/*HASTA AQUÍ*/
-
+		else
+		{
+			//mostrar feedback mal
+		}
 		Destroy (gameObject);
 	}
 
-	/* AQUI RESTAMOS UN PUNTO CON UNA FUNCIÓN*/
-
-	private void restarPunto(){
-		_gameManager.restarTarget ();
-        
-/* DESDE AQUI GANAR */
-
-		if (_gameManager.getTargets () < 1) {
-			_gameManager.setGanar (true);
-			SceneManager.LoadScene ("Resultados");
-		}
-
-		/* HASTA AQUI GANAR */
-	}
-	/*HASTA AQUÍ*/
 }
