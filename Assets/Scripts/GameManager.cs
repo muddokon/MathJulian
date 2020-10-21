@@ -11,15 +11,7 @@ public class GameManager : MonoBehaviour
     public float tiempo;
 
     private float tiempoBackup;
-
-    public int[][] tablas =
-    {
-        new int[] {1,2,3,4,5,6,7,8,9,10}, 
-        new int[] {2,4,6,8,10,12,14,16,18,20}
-    };
-
-    public int tabla;
-
+    
     void Awake ()
     {
         if (!created)

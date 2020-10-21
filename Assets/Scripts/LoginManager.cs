@@ -1,18 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using TMPro;
 using UnityEngine;
 
 public class LoginManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public TMP_Text nameText;
 
-    // Update is called once per frame
-    void Update()
+    public void RegisterUser()
     {
-        
+        PlayerPrefs.DeleteAll();
+        var daName = nameText.text.Length > 0 ? nameText.text : "Jugador";
+        PlayerPrefs.SetString("playerName", daName);
     }
 }
