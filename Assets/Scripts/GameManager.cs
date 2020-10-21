@@ -2,10 +2,10 @@
 
 public class GameManager : MonoBehaviour
 {
-    private static bool created = false;
     private int targets;
     private bool ganar;
     private string nombre;
+    public int score;
 
     [Header("El tiempo para jugar:")]
     public float tiempo;
@@ -14,18 +14,19 @@ public class GameManager : MonoBehaviour
     
     void Awake ()
     {
-        if (!created)
-        {
-            DontDestroyOnLoad(this.gameObject);
-            tiempoBackup = tiempo;
-            created = true;
-        }
-        else
-        {
-            Destroy(this.gameObject);
-        }
+        tiempoBackup = tiempo;
     }
 
+    public float GetScore()
+    {
+        return score;
+    }
+    
+    public void SumarScore()
+    {
+        score++;
+    }
+    
     public void resetTiempo(){
         tiempo = tiempoBackup;
     }

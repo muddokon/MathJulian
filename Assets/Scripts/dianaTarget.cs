@@ -23,6 +23,8 @@ public class dianaTarget : MonoBehaviour {
 	[Header("La explosión cuando se destruye:")]
 	public GameObject explosion;
 
+	public bool correcto;
+	
 	private GameManager _gameManager;
 
 	void Start(){
@@ -41,11 +43,12 @@ public class dianaTarget : MonoBehaviour {
 		GameObject obj = Instantiate (explosion, transform.position, transform.rotation);
 		Destroy(obj, 2f);
 
+		if (correcto)
+		{
+			//_gameManager
+		}
 		/*AQUI PONEMOS LA FUNCIÓN DE PUNTO*/
-	
 		restarPunto ();
-
-
 		/*HASTA AQUÍ*/
 
 		Destroy (gameObject);
@@ -60,12 +63,10 @@ public class dianaTarget : MonoBehaviour {
 
 		if (_gameManager.getTargets () < 1) {
 			_gameManager.setGanar (true);
-			SceneManager.LoadScene ("final");
+			SceneManager.LoadScene ("Resultados");
 		}
 
 		/* HASTA AQUI GANAR */
 	}
-
-
 	/*HASTA AQUÍ*/
 }
