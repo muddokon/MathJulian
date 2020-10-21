@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
     [Header("El texto para feedback Bien:")]
     public TMP_Text textoBien;
 
-    [Header("El texto para feedback Bien:")]
+    [Header("El texto para feedback Mal:")]
     public TMP_Text textoMal;
 
     private GameManager _gameManager;
