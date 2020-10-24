@@ -2062,6 +2062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 923b4624fab85495a9335a9f6a231174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   tiempo: 0
 --- !u!4 &336092478
 Transform:
@@ -10369,6 +10370,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5547321390059992200, guid: dd374aa542ade4374b54763ad1bb0dd4, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5547321390059992203, guid: dd374aa542ade4374b54763ad1bb0dd4, type: 3}
+      propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5547321390059992204, guid: dd374aa542ade4374b54763ad1bb0dd4, type: 3}

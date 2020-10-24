@@ -46,28 +46,36 @@ public class GunFire : MonoBehaviour {
 
 	private AudioSource parlante;
 	private GameManager _gameMananger;
+	private LevelLoader _levelLoader;
 
 	void Start(){
 		parlante = GetComponent<AudioSource> ();
 		_gameMananger = GameObject.FindWithTag("GameController").GetComponent (typeof(GameManager)) as GameManager;
+		_levelLoader = GameObject.FindWithTag("Loader").GetComponent (typeof(LevelLoader)) as LevelLoader;
 	}
 
 	void Update () {
-		if (Input.GetButtonDown ("Fire1")) {
-			GunShoot ();
+		
+		if (Input.GetButtonDown("Fire1"))
+		{
+			GunShoot();
 		}
-		/* DESDE AQUI RESTAR TIEMPO */
 
-		_gameMananger.tiempo -= Time.deltaTime;
+		if (!SceneManager.GetActiveScene().name.Equals("4-Login"))
+		{
+			/* DESDE AQUI RESTAR TIEMPO */
+			_gameMananger.tiempo -= Time.deltaTime;
 
-		/* DESDE AQUI PERDER *//* DESDE AQUI PERDER */
-		if (_gameMananger.getTiempo () <= 0) {
-			_gameMananger.setGanar (false);
-			//SceneManager.LoadScene ("final");
+			/* DESDE AQUI PERDER */ /* DESDE AQUI PERDER */
+			if (_gameMananger.getTiempo() <= 0)
+			{
+				_gameMananger.setGanar(false);
+				_levelLoader.ChageScene("Resultados");
+			}
+			/* HASTA AQUI PERDER */
+
+			/* HASTA AQUI RESTAR TIEMPO */
 		}
-		/* HASTA AQUI PERDER */
-
-		/* HASTA AQUI RESTAR TIEMPO */
 	}
 
 	void GunShoot(){
@@ -77,7 +85,6 @@ public class GunFire : MonoBehaviour {
 		RaycastHit hit;
 		if (Physics.Raycast (FPSCamera.transform.position, FPSCamera.transform.forward, out hit)) {
 			Debug.Log ("Le diste a " + hit.transform.name);
-			
 			dianaTarget target = hit.transform.GetComponent<dianaTarget> ();
 			if (target != null)
 			{

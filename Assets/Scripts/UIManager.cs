@@ -1,7 +1,7 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -12,10 +12,10 @@ public class UIManager : MonoBehaviour
     public TMP_Text textoTiempo;
 
     [Header("El texto para feedback Bien:")]
-    public TMP_Text textoBien;
+    public GameObject textoBien;
 
     [Header("El texto para feedback Mal:")]
-    public TMP_Text textoMal;
+    public GameObject textoMal;
 
     private GameManager _gameManager;
     
@@ -23,13 +23,30 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         _gameManager = GameObject.FindWithTag("GameController").GetComponent (typeof(GameManager)) as GameManager;
-        textoNombre.text = PlayerPrefs.GetString("playerName");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(_gameManager.getTiempo() >= 0.0f)
-            textoTiempo.text = _gameManager.getTiempo ().ToString("F1");
+        if (!SceneManager.GetActiveScene().name.Equals("4-Login"))
+        {
+            textoNombre.text = PlayerPrefs.GetString("playerName");
+            if (_gameManager.getTiempo() >= 0.0f)
+                textoTiempo.text = _gameManager.getTiempo().ToString("F1");
+        }
+    }
+    
+    public IEnumerator FeedbackBien()
+    {
+        textoBien.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        textoBien.SetActive(false);
+    }
+    
+    public IEnumerator FeedbackMal()
+    {
+        textoMal.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        textoMal.SetActive(false);
     }
 }

@@ -1880,8 +1880,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 723, y: -49.699997}
-  m_SizeDelta: {x: 2900.75, y: 50}
+  m_AnchoredPosition: {x: -0.000037193, y: -193}
+  m_SizeDelta: {x: 1472.0215, y: 296.7802}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313040467
 MonoBehaviour:
@@ -1930,15 +1930,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 250
+  m_fontSize: 200
   m_fontSizeBase: 250
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 72
+  m_fontSizeMax: 200
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2229,7 +2229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5547321390059992200, guid: dd374aa542ade4374b54763ad1bb0dd4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5547321390059992202, guid: dd374aa542ade4374b54763ad1bb0dd4, type: 3}
       propertyPath: m_ScaleFactor
@@ -2389,8 +2389,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 923b4624fab85495a9335a9f6a231174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   tiempo: 0
-  tabla: 0
 --- !u!4 &336092478
 Transform:
   m_ObjectHideFlags: 0
@@ -6908,6 +6908,7 @@ GameObject:
   - component: {fileID: 1174696704}
   - component: {fileID: 1174696703}
   - component: {fileID: 1174696702}
+  - component: {fileID: 1174696706}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -6999,6 +7000,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1174696706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174696701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53b5fc01ec9944669b739b619c66783f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombre: {fileID: 313040467}
+  puntaje: {fileID: 380721277}
 --- !u!1 &1193695111 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8509165759532227736, guid: af199f7467eb2a246a98761dd2a5914d, type: 3}
