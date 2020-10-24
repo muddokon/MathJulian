@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 /*
 
@@ -24,11 +21,17 @@ public class dianaTarget : MonoBehaviour {
 	public GameObject explosion;
 
 	public bool correcto;
+
+	public string nivel;
 	
 	private GameManager _gameManager;
+	private UIManager _uiManager;
+	private LevelLoader _levelLoader;
 
 	void Start(){
 		_gameManager = GameObject.FindWithTag("GameController").GetComponent (typeof(GameManager)) as GameManager;
+		_uiManager = GameObject.FindWithTag("GameController").GetComponent (typeof(UIManager)) as UIManager;
+		_levelLoader = GameObject.FindWithTag("Loader").GetComponent (typeof(LevelLoader)) as LevelLoader;
 	}
 
 	public void takeDamage(float _amount){
@@ -43,16 +46,56 @@ public class dianaTarget : MonoBehaviour {
 		GameObject obj = Instantiate (explosion, transform.position, transform.rotation);
 		Destroy(obj, 2f);
 
-		if (correcto)
+		if (nivel.Equals("Tabla 1"))
+		{
+			_levelLoader.ChageScene("Tabla 1");
+		}
+		else if (nivel.Equals("Tabla 2"))
+		{
+			_levelLoader.ChageScene("Tabla 2");
+		}
+		else if (nivel.Equals("Tabla 3"))
+		{
+			_levelLoader.ChageScene("Tabla 3");
+		}
+		else if (nivel.Equals("Tabla 4"))
+		{
+			_levelLoader.ChageScene("Tabla 4");
+		}
+		else if (nivel.Equals("Tabla 5"))
+		{
+			_levelLoader.ChageScene("Tabla 5");
+		}
+		else if (nivel.Equals("Tabla 6"))
+		{
+			_levelLoader.ChageScene("Tabla 6");
+		}
+		else if (nivel.Equals("Tabla 7"))
+		{
+			_levelLoader.ChageScene("Tabla 7");
+		}
+		else if (nivel.Equals("Tabla 8"))
+		{
+			_levelLoader.ChageScene("Tabla 8");
+		}
+		else if (nivel.Equals("Tabla 9"))
+		{
+			_levelLoader.ChageScene("Tabla 9");
+		}
+		else if (nivel.Equals("Tabla 10"))
+		{
+			_levelLoader.ChageScene("Tabla 10");
+		}
+		else if (correcto)
 		{
 			_gameManager.SumarScore();
-			//mostrar feedback bien
+			_uiManager.StartCoroutine(nameof(UIManager.FeedbackBien));
 		}
-		else
+		else if (!correcto)
 		{
+			_uiManager.StartCoroutine(nameof(UIManager.FeedbackMal));
 			//mostrar feedback mal
 		}
 		Destroy (gameObject);
 	}
-
 }

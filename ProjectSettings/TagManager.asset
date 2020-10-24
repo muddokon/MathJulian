@@ -6,6 +6,7 @@ TagManager:
   tags:
   - KillZone
   - Target
+  - Loader
   layers:
   - Default
   - TransparentFX
