@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6920dbd-c471-4405-8ea8-edcb2568ac6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HUD IN GAME.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/HUD IN GAME.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SceneLoader/LevelLoader.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneLoader/LevelLoader.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SceneLoader/TransitionAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneLoader/TransitionAnim.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3-Creditos.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3-Creditos.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/4-Login.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4-Login.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Resultados.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Resultados.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tabla 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tabla 4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunFire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GunFire.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoginManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoginManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/REsultados.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/REsultados.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +28,12 @@
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Utility/ForcedReset.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KillZone.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GunFire.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/REsultados.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/REsultados.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoginManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +90,9 @@
       <workItem from="1602631059858" duration="141000" />
       <workItem from="1603233934955" duration="5736000" />
       <workItem from="1603509441220" duration="3818000" />
+      <workItem from="1603554456564" duration="467000" />
+      <workItem from="1603555935762" duration="350000" />
+      <workItem from="1603556815031" duration="182000" />
     </task>
     <servers />
   </component>

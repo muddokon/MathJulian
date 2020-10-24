@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
 public class REsultados : MonoBehaviour
@@ -15,6 +13,7 @@ public class REsultados : MonoBehaviour
     {
         _gameManager = GameObject.FindWithTag("GameController").GetComponent (typeof(GameManager)) as GameManager;
         nombre.text = PlayerPrefs.GetString("playerName");
-            puntaje.text = _gameManager.GetScore().ToString();
+        //puntaje.text = _gameManager.GetScore().ToString();
+        puntaje.text = PlayerPrefs.GetInt("score").ToString();
     }
 }

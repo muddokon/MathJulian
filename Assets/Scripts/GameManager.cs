@@ -24,7 +24,14 @@ public class GameManager : MonoBehaviour
     
     public void SumarScore()
     {
-        score++;
+        score += 10;
+        PlayerPrefs.SetInt("score",score);
+    }
+    
+    public void RestarScore()
+    {
+        score -= 5;
+        PlayerPrefs.SetInt("score",score);
     }
     
     public void resetTiempo(){

@@ -93,6 +93,7 @@ public class dianaTarget : MonoBehaviour {
 		}
 		else if (!correcto)
 		{
+			_gameManager.RestarScore();
 			_uiManager.StartCoroutine(nameof(UIManager.FeedbackMal));
 			//mostrar feedback mal
 		}
