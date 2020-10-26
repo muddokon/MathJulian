@@ -29,10 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tabla 4.unity
     guid: cc0bbb02dff3de3408a905274e1b80f5
-  - enabled: 1
-    path: Assets/Scenes/Tabla 5.unity
-    guid: 865dfb450774cc24ea607f4227c40ee0
-  - enabled: 1
-    path: Assets/Scenes/Tabla 6.unity
-    guid: ceb9d03a067b4e44fae3f0f10ad9ea35
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
