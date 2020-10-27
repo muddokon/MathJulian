@@ -838,7 +838,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3512843920313575719, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_Name
+<<<<<<< Updated upstream
       value: Correcto
+=======
+      value: Sebusca (17)
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6249951570385048547, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -886,11 +890,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8739271467433513290, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_text
+<<<<<<< Updated upstream
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8801695016805356618, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: correcto
       value: 1
+=======
+      value: 5
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
@@ -980,7 +988,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3512843920313575719, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_Name
+<<<<<<< Updated upstream
       value: Correcto
+=======
+      value: Sebusca (1)
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6249951570385048547, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1028,11 +1040,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8739271467433513290, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_text
+<<<<<<< Updated upstream
       value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8801695016805356618, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: correcto
       value: 1
+=======
+      value: 10
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
@@ -2187,8 +2203,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 923b4624fab85495a9335a9f6a231174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   score: 0
   tiempo: 0
+=======
+  tiempo: 0
+  tabla: 0
+>>>>>>> Stashed changes
 --- !u!4 &336092478
 Transform:
   m_ObjectHideFlags: 0
@@ -2212,7 +2233,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3512843920313575719, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_Name
+<<<<<<< Updated upstream
       value: Correcto
+=======
+      value: Sebusca (4)
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6249951570385048547, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2262,10 +2287,13 @@ PrefabInstance:
       propertyPath: m_text
       value: 6
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 8801695016805356618, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: correcto
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
 --- !u!1001 &339393227
@@ -3658,7 +3686,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3512843920313575719, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_Name
+<<<<<<< Updated upstream
       value: correcto
+=======
+      value: Sebusca (10)
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6249951570385048547, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3708,10 +3740,13 @@ PrefabInstance:
       propertyPath: m_text
       value: 16
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 8801695016805356618, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: correcto
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
 --- !u!1 &630212491
@@ -4711,7 +4746,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3512843920313575719, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_Name
+<<<<<<< Updated upstream
       value: correcto
+=======
+      value: Sebusca (13)
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6249951570385048547, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4759,11 +4798,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8739271467433513290, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_text
+<<<<<<< Updated upstream
       value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8801695016805356618, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: correcto
       value: 1
+=======
+      value: 23
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
@@ -5186,7 +5229,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8739271467433513290, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_text
+<<<<<<< Updated upstream
       value: 13
+=======
+      value: 32
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
@@ -6219,7 +6266,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3512843920313575719, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_Name
+<<<<<<< Updated upstream
       value: Correcto
+=======
+      value: Sebusca (12)
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6249951570385048547, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6269,10 +6320,13 @@ PrefabInstance:
       propertyPath: m_text
       value: 8
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 8801695016805356618, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: correcto
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
 --- !u!1 &1096716329 stripped
@@ -6750,7 +6804,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3512843920313575719, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_Name
+<<<<<<< Updated upstream
       value: correcto
+=======
+      value: Sebusca (5)
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6249951570385048547, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6798,11 +6856,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8739271467433513290, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_text
+<<<<<<< Updated upstream
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8801695016805356618, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: correcto
       value: 1
+=======
+      value: 99
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
@@ -8303,7 +8365,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3512843920313575719, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_Name
+<<<<<<< Updated upstream
       value: Correcto
+=======
+      value: Sebusca (2)
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6249951570385048547, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8351,11 +8417,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8739271467433513290, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_text
+<<<<<<< Updated upstream
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8801695016805356618, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: correcto
       value: 1
+=======
+      value: 2
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
@@ -9503,7 +9573,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3512843920313575719, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_Name
+<<<<<<< Updated upstream
       value: Correcto
+=======
+      value: Sebusca (19)
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6249951570385048547, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9553,10 +9627,13 @@ PrefabInstance:
       propertyPath: m_text
       value: 4
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 8801695016805356618, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: correcto
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
 --- !u!1 &1810979495 stripped
@@ -10267,7 +10344,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 09b6f5bf63352c64f89ce12011a76231, type: 3}
       propertyPath: m_Name
+<<<<<<< Updated upstream
       value: xdddd
+=======
+      value: Box_Simple (4)
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09b6f5bf63352c64f89ce12011a76231, type: 3}
@@ -11828,7 +11909,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3512843920313575719, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_Name
+<<<<<<< Updated upstream
       value: correcto
+=======
+      value: Sebusca
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6249951570385048547, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11876,11 +11961,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8739271467433513290, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: m_text
+<<<<<<< Updated upstream
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8801695016805356618, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
       propertyPath: correcto
       value: 1
+=======
+      value: 24
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd11be6f928c482da86d1d8538e3cf7, type: 3}
