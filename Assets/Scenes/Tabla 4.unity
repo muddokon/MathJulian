@@ -2225,7 +2225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  tiempo: 120
+  tiempo: 200
 --- !u!4 &336092478
 Transform:
   m_ObjectHideFlags: 0
@@ -11627,26 +11627,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 225969731, guid: 9d8fc1ed0772ff845a8f0914bfa7ee15, type: 3}
-      propertyPath: m_Name
-      value: Bien
-      objectReference: {fileID: 0}
-    - target: {fileID: 420145634, guid: 9d8fc1ed0772ff845a8f0914bfa7ee15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 420145634, guid: 9d8fc1ed0772ff845a8f0914bfa7ee15, type: 3}
-      propertyPath: m_Name
-      value: Mal
-      objectReference: {fileID: 0}
-    - target: {fileID: 5734776686741463088, guid: 9d8fc1ed0772ff845a8f0914bfa7ee15, type: 3}
-      propertyPath: m_text
-      value: Dispara a los resultados de la tabla del 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5734776687004148178, guid: 9d8fc1ed0772ff845a8f0914bfa7ee15, type: 3}
-      propertyPath: m_text
-      value: Se busca el 4
-      objectReference: {fileID: 0}
     - target: {fileID: 5734776687395966128, guid: 9d8fc1ed0772ff845a8f0914bfa7ee15, type: 3}
       propertyPath: m_Name
       value: HUD IN GAME

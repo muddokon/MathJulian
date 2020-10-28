@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 225969734}
   - component: {fileID: 225969733}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: Bien
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 420145637}
   - component: {fileID: 420145636}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Mal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Dispara a los resultados de la tabla del 5
+  m_text: Dispara a los resultados de la tabla del 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8018e7a075d214422a87da0ec0839844, type: 2}
   m_sharedMaterial: {fileID: 3165151150675713234, guid: 8018e7a075d214422a87da0ec0839844, type: 2}
@@ -827,7 +827,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Se busca el 5
+  m_text: Se busca el 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d807c3d0319b14791b5bf7617988364d, type: 2}
   m_sharedMaterial: {fileID: 6957779114271635055, guid: d807c3d0319b14791b5bf7617988364d, type: 2}
