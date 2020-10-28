@@ -139,10 +139,12 @@
           <e p="LevelLoader.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AnimateResults.cs" t="Include" />
           <e p="dianaTarget.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="GunFire.cs" t="Include" />
           <e p="KillZone.cs" t="Include" />
+          <e p="Latir.cs" t="Include" />
           <e p="LoginManager.cs" t="Include" />
           <e p="Prueba.cs" t="Include" />
           <e p="REsultados.cs" t="Include" />
