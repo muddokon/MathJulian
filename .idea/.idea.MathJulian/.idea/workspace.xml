@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6920dbd-c471-4405-8ea8-edcb2568ac6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HUD IN GAME.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/HUD IN GAME.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Resultados.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Resultados.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/REsultados.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/REsultados.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +31,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LoginManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/REsultados.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimateResults.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/REsultados.cs" />
       </list>
     </option>
   </component>
@@ -94,7 +92,7 @@
       <workItem from="1603554456564" duration="467000" />
       <workItem from="1603555935762" duration="350000" />
       <workItem from="1603556815031" duration="182000" />
-      <workItem from="1603839845686" duration="1235000" />
+      <workItem from="1603839845686" duration="1819000" />
     </task>
     <servers />
   </component>

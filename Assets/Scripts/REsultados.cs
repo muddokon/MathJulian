@@ -13,5 +13,6 @@ public class REsultados : MonoBehaviour
         //puntaje.text = _gameManager.GetScore().ToString();
         puntaje.text = PlayerPrefs.GetInt("score").ToString();
         Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
