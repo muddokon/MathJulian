@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6920dbd-c471-4405-8ea8-edcb2568ac6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/HUD IN GAME.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/HUD IN GAME.prefab" afterDir="false" />
-    </list>
+    <list default="true" id="f6920dbd-c471-4405-8ea8-edcb2568ac6c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +88,7 @@
       <workItem from="1603554456564" duration="467000" />
       <workItem from="1603555935762" duration="350000" />
       <workItem from="1603556815031" duration="182000" />
-      <workItem from="1603839845686" duration="1953000" />
+      <workItem from="1603839845686" duration="2101000" />
     </task>
     <servers />
   </component>
