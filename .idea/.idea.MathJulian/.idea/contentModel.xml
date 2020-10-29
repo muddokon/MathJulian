@@ -139,6 +139,7 @@
           <e p="LevelLoader.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AnimateAyuda.cs" t="Include" />
           <e p="AnimateResults.cs" t="Include" />
           <e p="dianaTarget.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />

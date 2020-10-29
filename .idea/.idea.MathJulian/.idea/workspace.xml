@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6920dbd-c471-4405-8ea8-edcb2568ac6c" name="Default Changelist" comment="" />
+    <list default="true" id="f6920dbd-c471-4405-8ea8-edcb2568ac6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI/Ayuda 2.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI/Ayuda 2.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI/Ayuda 3.1.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI/Ayuda 3.1.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI/Ayuda 3.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI/Ayuda 3.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI/Ayuda 4.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI/Ayuda 4.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GUI/ayuda 1.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI/ayuda 1.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-Home.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2-Ayuda.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2-Ayuda.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +41,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimateResults.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/REsultados.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimateAyuda.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +102,7 @@
       <workItem from="1603555935762" duration="350000" />
       <workItem from="1603556815031" duration="182000" />
       <workItem from="1603839845686" duration="2101000" />
+      <workItem from="1603946679554" duration="2120000" />
     </task>
     <servers />
   </component>
