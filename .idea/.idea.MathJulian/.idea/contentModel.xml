@@ -149,6 +149,7 @@
           <e p="LoginManager.cs" t="Include" />
           <e p="Prueba.cs" t="Include" />
           <e p="REsultados.cs" t="Include" />
+          <e p="TakeScreenshot.cs" t="Include" />
           <e p="UIManager.cs" t="Include" />
         </e>
         <e p="Shared" t="Include">

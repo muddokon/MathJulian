@@ -11,14 +11,14 @@ public class LoginManager : MonoBehaviour
         string daName = "";
         PlayerPrefs.DeleteAll();
         daName = nameText.text;
-        /*if (daName.Length > 0 && daName.Length < 9)
+        if (daName.Length > 0 && daName.Length < 9)
             daName = nameText.text;
         else if (daName.Length > 9)
             daName = nameText.text.Substring(0,9);
         else
         {
             daName = nombreAlternativo;
-        }*/
+        }
         PlayerPrefs.SetString("playerName", daName);
     }
 }

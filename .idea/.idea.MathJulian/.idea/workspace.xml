@@ -5,13 +5,22 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GUI/Ayuda 2.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI/Ayuda 2.PNG.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GUI/Ayuda 3.1.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI/Ayuda 3.1.PNG.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GUI/Ayuda 3.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI/Ayuda 3.PNG.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GUI/Ayuda 4.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI/Ayuda 4.PNG.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GUI/ayuda 1.PNG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GUI/ayuda 1.PNG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneLoader/LevelLoader.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneLoader/LevelLoader.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneLoader/TransitionAnimOut.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneLoader/TransitionAnimOut.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-Home.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2-Ayuda.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2-Ayuda.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2-Ayuda 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2-Ayuda 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3-Creditos.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3-Creditos.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/4-Login.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4-Login.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Resultados.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Resultados.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tabla 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tabla 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tabla 2/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tabla 2/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tabla 2/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tabla 2/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tabla 2/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tabla 2/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tabla 2/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tabla 2/Lightmap-1_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tabla 2/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tabla 2/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tabla 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tabla 3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tabla 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tabla 4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoginManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoginManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +32,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimateResults.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunFire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimateResults.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TakeScreenshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunFire.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -36,12 +46,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/KillZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GunFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LoginManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/dianaTarget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimateResults.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/REsultados.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimateAyuda.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoginManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TakeScreenshot.cs" />
       </list>
     </option>
   </component>
@@ -102,7 +113,8 @@
       <workItem from="1603555935762" duration="350000" />
       <workItem from="1603556815031" duration="182000" />
       <workItem from="1603839845686" duration="2101000" />
-      <workItem from="1603946679554" duration="2120000" />
+      <workItem from="1603946679554" duration="2236000" />
+      <workItem from="1604118687919" duration="787000" />
     </task>
     <servers />
   </component>
