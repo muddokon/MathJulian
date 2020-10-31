@@ -47,8 +47,10 @@ public class GunFire : MonoBehaviour {
 	private AudioSource parlante;
 	private GameManager _gameMananger;
 	private LevelLoader _levelLoader;
+	private int targetAmount;
 
 	void Start(){
+		targetAmount = 20;
 		parlante = GetComponent<AudioSource> ();
 		_gameMananger = GameObject.FindWithTag("GameController").GetComponent (typeof(GameManager)) as GameManager;
 		_levelLoader = GameObject.FindWithTag("Loader").GetComponent (typeof(LevelLoader)) as LevelLoader;
@@ -88,12 +90,18 @@ public class GunFire : MonoBehaviour {
 			dianaTarget target = hit.transform.GetComponent<dianaTarget> ();
 			if (target != null)
 			{
+				if (target.correcto)
+					targetAmount--;
+				if (targetAmount < 1)
+				{
+					_gameMananger.setGanar(false);
+					_levelLoader.ChageScene("Resultados");
+				}
 				Debug.Log("Daño realizado!");
 				target.takeDamage (damage);
 			}
 			GameObject obj = Instantiate (hitEffect, hit.point, Quaternion.LookRotation (hit.normal));
 			Destroy(obj, 0.5f);
-		
 		}
 	}
 
