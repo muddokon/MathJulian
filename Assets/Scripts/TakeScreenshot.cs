@@ -41,6 +41,6 @@ public class TakeScreenshot : MonoBehaviour {
     }
  
     [DllImport("__Internal")]
-    private static extern void openWindow(string url);
+    private static extern void SaveScreenshotWebGL(string filename, string data);
  
 }
