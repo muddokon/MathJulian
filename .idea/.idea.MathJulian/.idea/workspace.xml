@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6920dbd-c471-4405-8ea8-edcb2568ac6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Webgl/screenshot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Webgl/OpenWindow.jslib.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MathJulian/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Resultados.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Resultados.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Webgl/screenshot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Webgl/screenshot.js.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TakeScreenshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TakeScreenshot.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +63,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LoginManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GunFire.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/Webgl/screenshot.js" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Webgl/OpenWindow.jslib.js" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TakeScreenshot.cs" />
       </list>
     </option>
@@ -126,7 +128,10 @@
       <workItem from="1603946679554" duration="2236000" />
       <workItem from="1604118687919" duration="787000" />
       <workItem from="1604159292214" duration="2295000" />
-      <workItem from="1604437305624" duration="732000" />
+      <workItem from="1604437305624" duration="842000" />
+      <workItem from="1604439077573" duration="856000" />
+      <workItem from="1604445897362" duration="514000" />
+      <workItem from="1604450179007" duration="184000" />
     </task>
     <servers />
   </component>
@@ -145,6 +150,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
