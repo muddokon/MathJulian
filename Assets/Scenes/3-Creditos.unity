@@ -357,7 +357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 236, y: 126}
+  m_AnchoredPosition: {x: 207.25, y: 126}
   m_SizeDelta: {x: 326.4, y: 163.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &53781392
@@ -3157,7 +3157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -566, y: -167}
+  m_AnchoredPosition: {x: -566, y: -120}
   m_SizeDelta: {x: 1003.4, y: 208.65002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &578255681
@@ -3998,7 +3998,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 436, y: -358}
+  m_AnchoredPosition: {x: 420, y: -314.5}
   m_SizeDelta: {x: 751.9, y: 629}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &792215424
@@ -7678,7 +7678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -566.00006, y: -39}
+  m_AnchoredPosition: {x: -566, y: -54}
   m_SizeDelta: {x: 367.06183, y: 268.8915}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1618777093
@@ -7701,11 +7701,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Idea y dise\xF1o                       Juli\xE1n David Orozco                               
-    Jaimes\n\nProgramaci\xF3n                 Juan Sebastian G\xF3mez Rosas\n\nVoces                               
-    Saray Gabriela L\xF3pez Espinosa       \n\nM\xFAsica                                      
-    Ennio Morricone\n                          Elmer Bernstein\n                         
-    Las cuerdas Bre\xF1enses\n\nAssets                                                        
+  m_text: "Idea y dise\xF1o            Juli\xE1n David Orozco Jaimes\n\nProgramaci\xF3n       
+    Juan Sebastian G\xF3mez Rosas\n\nVoces                  Saray Gabriela L\xF3pez
+    Espinosa       \n\nM\xFAsica              Ennio Morricone\n                         
+    Elmer Bernstein\n                          Las cuerdas Bre\xF1enses\n\nAssets              
     dqurp\n                          RustyKnights\n                          ktk.kumamoto"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d807c3d0319b14791b5bf7617988364d, type: 2}
@@ -7740,7 +7739,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 4
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
